@@ -53,14 +53,16 @@ let drawCells = () => {
             } else if (variance <= -1) {
                 return 'deepskyblue';        
             } else if (variance <= 0) {
-                return 'yellow';
-            }  else if (variance <= 1) {
-                return 'pink';
+                return 'white';
+            } else if (variance <= 1) {
+                return 'lightyellow';
             } else if (variance <= 2) {
+                return 'yellow';
+            } else if (variance <= 3) {
                 return 'orange';
-            }         
+            }      
             else {
-                return 'crimson';
+                return 'red';
             }
         })
         .attr('data-year', (item) => {
