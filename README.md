@@ -58,7 +58,7 @@ Colors for legend.
 * If variance is greater than 2, but no more than 3, set the color to orangered
 * If variance is greater than 3, set the color to red 
 
-[Wireframes](wireframes/wireframe-heat-map) are provided.
+[Wireframes](wireframes/wireframe-heat-map.png) are provided.
 
 ## Features
 
