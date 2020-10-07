@@ -49,3 +49,13 @@ svg {
     font-size: 24px;
     margin-bottom: 5px;
 }
+
+/* Heat Map */
+.cell:hover {
+    fill: black;
+}
+
+g {
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    color: purple;
+}
