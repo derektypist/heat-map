@@ -19,3 +19,9 @@ svg {
     border-radius: 5px;
     padding: 10px;
 }
+
+/* Title */
+#title {
+    font-size: 30px;
+    fill: purple;
+}
