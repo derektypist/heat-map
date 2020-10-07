@@ -21,12 +21,17 @@
     <svg id='canvas'></svg>
     <!-- Set Up SVG Legend-->
     <svg id='legend'>
-    <!-- Apply Condition for Variance of -2 or Less -->
+    <!-- Create legend for Variance of -2 or less -->
     <g>
         <rect x="10" y="0" width="40" height="40" fill="blue"></rect>
         <text x="60" y="20" fill="purple">Variance of -2 or less</text>
     </g>
 
+    <!-- Create legend for variance greater than -2, but no more than -1 -->
+    <g>
+        <rect x="10" y="40" width="40" height="40" fill="deepskyblue"></rect>
+        <text x="60" y="60" fill="purple">Variance greater than -2, but no more than -1</text>
+    </g>
     </svg>
 </body>
 <!-- Load Script -->
