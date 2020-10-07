@@ -48,13 +48,20 @@ let drawCells = () => {
         .attr('fill', (item) => {
             let variance = item['variance'];
             // Set Fill Color According to the value of variance
-            if (variance <= -1) {
+            if (variance <= -2) {
                 return 'blue';
+            } else if (variance <= 1) {
+                return 'deepskyblue';        
             } else if (variance <= 0) {
                 return 'lightblue';
             } else if (variance <= 1) {
+                return 'lightyellow';
+            } else if (variance <= 2) {
+                return 'yellow';
+            } else if (variance <= 3) {
                 return 'orange';
-            } else {
+            }         
+            else {
                 return 'crimson';
             }
         })
