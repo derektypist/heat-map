@@ -1,0 +1,14 @@
+/* Universal Styles */
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: seagreen;
+}
