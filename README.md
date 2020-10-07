@@ -64,6 +64,8 @@ This project uses the technologies of HTML5, CSS3, JavaScript and D3.  Additiona
 
 Did a Google Search on `freecodecamp heat map`.
 
+Went to w3schools.com to find out about the degree sign, which was found under HTML5 Entities D.  
+
 HTML5 tags within the body, CSS3 and JavaScript were taken from [Notion](https://www.notion.so/Visualize-Data-with-a-Heat-Map-12660e493bd940ea95625aa641db574b).
 This was accessed on 7 October 2020.
 
