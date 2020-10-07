@@ -12,3 +12,10 @@ body {
     justify-content: center;
     background-color: seagreen;
 }
+
+svg {
+    background-color: lightblue;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
