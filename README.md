@@ -76,8 +76,11 @@ above the `</html>`.  Preview the index.html or use `python3 -m http.server` at 
 Select Run Tests.  If some or all of the tests are failing, go back and edit the code until all tests have passed.
 Once all tests have passed, delete `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`.
 
+## Deployment
 
+This project is deployed on [GitHub Pages](https://derektypist.github.io/heat-map) at the main branch.
 
+Use the command `git push` to update the deployed project.
 
 ## Credits
 
