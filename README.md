@@ -44,5 +44,10 @@ more information about the area.
 As a user, my tooltip should have a `data-year` property that corresponds to the `data-year` of the
 active area.
 
+JSON Data is at https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json
+
+Year from 1753 to 2015.  Month from 1 to 12.
+
+
 
 
