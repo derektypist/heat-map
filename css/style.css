@@ -38,3 +38,14 @@ svg {
     min-height: 600px;
     min-width: 1200px;
 }
+
+/* Tooltip */
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 2px;
+    color: lightblue;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
