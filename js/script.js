@@ -50,7 +50,7 @@ let drawCells = () => {
             // Set Fill Color According to the value of variance
             if (variance <= -2) {
                 return 'blue';
-            } else if (variance <= 1) {
+            } else if (variance <= -1) {
                 return 'deepskyblue';        
             } else if (variance <= 0) {
                 return 'yellow';
