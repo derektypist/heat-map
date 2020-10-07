@@ -24,3 +24,25 @@ There should be at least 4 different fill colors used for the cells.
 Each cell should have the properties `data-month`, `data-year`, `data-temp` containing their
 corresponding month, year and temperature values.
 
+The `data-month`, `data-year` of each cell should be within the range of the data.
+
+My heat map should have cells that align with the corresponding month on the y-axis.
+
+My heat map should have cells that align with the corresponding year on the x-axis.
+
+My heat map should have multiple tick labels on the x-axis with the years between 1754 and 2015.
+
+My heat map should have a legend with the corresponding `id='legend'`.
+
+My legend should contain `rect` elements.
+
+The `rect` elements in the legend should use at least 4 different fill colors.
+
+As a user, I can mouse over an area and see a tooltip with corresponding `id=tooltip`, which displays
+more information about the area.
+
+As a user, my tooltip should have a `data-year` property that corresponds to the `data-year` of the
+active area.
+
+
+
