@@ -50,6 +50,14 @@ svg {
     margin-bottom: 5px;
 }
 
+/* Legend */
+#legend {
+    color: lightblue;
+    min-height: 350px;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* Heat Map */
 .cell:hover {
     fill: black;
