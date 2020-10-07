@@ -58,8 +58,27 @@ Hovering over an area gives more information about the area.  If there was time,
 
 This project uses the technologies of HTML5, CSS3, JavaScript and D3.  Additional Technologies include Google Fonts.
 
+## Credits
 
+### Content
 
+Did a Google Search on `freecodecamp heat map`.
 
+HTML5 tags within the body, CSS3 and JavaScript were taken from [Notion](https://www.notion.so/Visualize-Data-with-a-Heat-Map-12660e493bd940ea95625aa641db574b).
+This was accessed on 7 October 2020.
+
+### Media
+
+JSON Data taken from https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json
+
+### Acknowledgements
+
+Wireframe taken from https://codepen.io/freeCodeCamp/full/JEXgeY
+
+Ganesh H, with the [YouTube Video](https://www.youtube.com/watch?v=6uM_wLOayYI) and [Notion](https://www.notion.so/Visualize-Data-with-a-Heat-Map-12660e493bd940ea95625aa641db574b).
+
+The YouTube Video and Notion website were accessed on 7 October 2020.
+
+freeCodeCamp.org.
 
 
