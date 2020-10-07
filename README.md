@@ -48,11 +48,22 @@ JSON Data is at https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceD
 
 Year from 1753 to 2015.  Month from 1 to 12.
 
+Colors for legend.
+
+* If variance is -2 or less, set the color to blue
+* If variance is greater than -2, but no more than -1, set the color to deepskyblue
+* If variance is greater than -1, but no more than 0, set the color to white
+* If variance is greater than 0, but no more than 1, set the color to yellow
+* If variance is greater than 1, but no more than 2, set the color to orange
+* If variance is greater than 2, but no more than 3, set the color to orangered
+* If variance is greater than 3, set the color to red 
+
 [Wireframes](wireframes/wireframe-heat-map) are provided.
 
 ## Features
 
-Hovering over an area gives more information about the area.  If there was time, can extend to later years.
+Hovering over an area gives more information about the area.  It has a legend of colors according to
+variances.  If there was time, can have a wider range of colors.
 
 ## Technologies
 
