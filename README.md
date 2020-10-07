@@ -50,6 +50,14 @@ Year from 1753 to 2015.  Month from 1 to 12.
 
 [Wireframes](wireframes/wireframe-heat-map) are provided.
 
+## Features
+
+Hovering over an area gives more information about the area.  If there was time, can extend to later years.
+
+## Technologies
+
+This project uses the technologies of HTML5, CSS3, JavaScript and D3.  Additional Technologies include Google Fonts.
+
 
 
 
