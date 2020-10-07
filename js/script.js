@@ -53,9 +53,9 @@ let drawCells = () => {
             } else if (variance <= 1) {
                 return 'deepskyblue';        
             } else if (variance <= 0) {
-                return 'white';
-            }  else if (variance <= 1) {
                 return 'yellow';
+            }  else if (variance <= 1) {
+                return 'pink';
             } else if (variance <= 2) {
                 return 'orange';
             }         
