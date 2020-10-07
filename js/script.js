@@ -114,5 +114,21 @@ let drawCells = () => {
 
 // Set Up Axes
 let generateAxes = () => {
+        // Format Axes
 
+        let xAxis = d3.axisBottom(xScale).tickFormat(d3.format('d'));
+        let yAxis = d3.axisLeft(yScale).tickFormat(d3.timeFormat('%B'));
+
+        svg.append('g')
+            .call(xAxis)
+            .attr('id', 'x-axis')
+            .attr('transform', 'translate(0, ' + (height-padding) + ')');
+
+        svg.append('g')
+            .call(yAxis)
+            .attr('id', 'y-axis')
+            .attr('transform', 'translate(' + padding + ', 0)');
 };
+
+// Request JSON from the Server
+
