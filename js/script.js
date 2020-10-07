@@ -131,4 +131,16 @@ let generateAxes = () => {
 };
 
 // Request JSON from the Server
-
+req.open('GET', url, true);
+req.onload = () => {
+    let data = JSON.parse(req.responseText);
+    baseTemp = data.baseTemperature;
+    values = data.monthlyVariance;
+    console.log(baseTemp);
+    console.log(values);
+    drawCanvas();
+    generateScales();
+    drawCells();
+    generateAxes();
+};
+req.send();
