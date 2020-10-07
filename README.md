@@ -69,6 +69,16 @@ variances.  If there was time, can have a wider range of colors.
 
 This project uses the technologies of HTML5, CSS3, JavaScript and D3.  Additional Technologies include Google Fonts.
 
+## Testing
+
+Make sure all the user stories are met.  Use `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+above the `</html>`.  Preview the index.html or use `python3 -m http.server` at the terminal window.
+Select Run Tests.  If some or all of the tests are failing, go back and edit the code until all tests have passed.
+Once all tests have passed, delete `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`.
+
+
+
+
 ## Credits
 
 ### Content
