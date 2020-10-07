@@ -48,6 +48,10 @@ JSON Data is at https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceD
 
 Year from 1753 to 2015.  Month from 1 to 12.
 
+[Wireframes](wireframes/wireframe-heat-map) are provided.
+
+
+
 
 
 
